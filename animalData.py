@@ -33,6 +33,15 @@ def get_stats(animals):
         else:
             countDict[dataList[i][0]] +=1
 
+    print(animals)
+    print(dataList)
+    print(animalList)
+    print(ageDict)
+    print(weightDict)
+    print(lengthDict)
+    print(countDict)
+    print("\n")
+
     finalStr = ""
     for i in animalList:
         finalStr+= i
